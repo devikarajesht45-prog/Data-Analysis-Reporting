@@ -132,7 +132,7 @@ group by p.product_name
 order by count(distinct s.order_number) 
 
 --Exploring measures
---Report with all Business metrics
+--15. Report with all Business metrics
 select 
 	'Total Sales' as measure_name,
 	sum(sales_amount) as measure_value
@@ -162,11 +162,3 @@ select
 	'Total Products' as measure_name, 
 	count(product_key) as measure_value 
 from gold.dim_products
-
-
-
-
-
-	
-
-
