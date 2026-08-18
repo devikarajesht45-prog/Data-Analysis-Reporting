@@ -81,7 +81,3 @@ go
 select * into gold.fact_sales
 from datawarehouse.gold.fact_sales;
 go
-
-
-
-
