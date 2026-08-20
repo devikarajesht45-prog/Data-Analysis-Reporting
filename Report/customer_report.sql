@@ -15,6 +15,7 @@ Highlights:
 		- average order value
 		- average monthly spend 
 */
+create view gold.report_customers as 
 with base_query as (
 -- Retrieve the columns from tables
 	select
